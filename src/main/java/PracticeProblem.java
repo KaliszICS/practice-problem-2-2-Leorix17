@@ -11,29 +11,29 @@ public class PracticeProblem {
 	}
 
 	public static boolean isEven(int num) {
-		boolean num1 = (num % 2) == 0;
-		return num1;
+		boolean result = (num % 2) == 0;
+		return result;
 	}
 
 	public static boolean isOdd(int num) {
-		boolean num1 = (num % 2) != 0;
-		return num1;
+		boolean result = (num % 2) != 0;
+		return result;
 	}
 
 	public static boolean isPositive(int num) {
-		boolean num1 = (num > 0);
-		return num1;
+		boolean result = (num > 0);
+		return result;
 	}
 
 	public static boolean isNegative(int num) {
-		boolean num1 = (num < 0);
-		return num1;
+		boolean result = (num < 0);
+		return result;
 	}
 
 	public static int combinedLength(String word1, String word2) {
 		String word = word1 + word2;
-		int length1 = word.length();
-		return length1;
+		int result = word.length();
+		return result;
 
 	}
 }
